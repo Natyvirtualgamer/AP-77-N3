@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Autor: Natalie Aliaga Vilugrón 
+Estudiante Analista Programador 
+            INACAP 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clínica Veterinaria CatDog
 
-## Available Scripts
+Descripción
 
-In the project directory, you can run:
+Aplicación web para la gestión integral de una clínica veterinaria. Permite:
 
-### `npm start`
+Registrar, editar y eliminar Dueños.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Registrar, editar y eliminar Mascotas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Registrar, editar y eliminar Veterinarios.
 
-### `npm test`
+Crear, modificar y eliminar Reservas de procedimientos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Enviar mensajes de Contacto a través de formulario.
 
-### `npm run build`
+# Tecnologías
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend: React, React Router
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estilos: Bootstrap 5, CSS personalizado
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cliente HTTP: Axios
 
-### `npm run eject`
+# Instalación
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clona este repositorio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone <URL-del-repositorio>
+cd veterinaria-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instala dependencias:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+Inicia el servidor de desarrollo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abre tu navegador en http://localhost:3000.
 
-### Code Splitting
+# Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navega con la barra superior a las secciones:
 
-### Analyzing the Bundle Size
+Dueños: gestiona información de propietarios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Mascotas: gestiona datos de mascotas y su relación con dueños.
 
-### Making a Progressive Web App
+Veterinarios: administra el registro de profesionales.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Reservas: agenda y edita procedimientos agendados.
 
-### Advanced Configuration
+Contacto: envía mensajes al equipo de la clínica.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Al hacer clic en "Editar" en cualquier tabla, el formulario cambia a modo edición.
 
-### Deployment
+El botón "Cancelar" vuelve al modo de creación.
+ 
+# Contribuir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Crea un fork del proyecto.
 
-### `npm run build` fails to minify
+Crea una rama con tu nueva función: git checkout -b feature/nombre-función
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Realiza tus cambios y haz commit: git commit -m "Agrega: descripción"
+
+Envía tu rama al repositorio: git push origin feature/nombre-función
+
+Abre un Pull Request.
+
+Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
